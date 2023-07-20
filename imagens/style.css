@@ -1,0 +1,26 @@
+.btn {
+      display: block;
+      position: relative;
+      padding: 10px;
+      margin-bottom: 25px;
+      width: 150px;
+      height: 150px;
+      background-color: red;
+      color: white;
+      text-transform: uppercase;
+      border: 1px solid #333;
+      cursor: pointer;
+      text-align: center;
+      transition: 1s;
+}
+.btn:hover {
+        color:green;
+        background-color: darkturquoise;
+}
+
+
+
+
+
+
+   
