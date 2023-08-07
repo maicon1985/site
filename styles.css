@@ -2,15 +2,21 @@ body{
     background-color:dimgrey;
 }
 
-h1 { font-size: 2em;
-        color: red;
+h1 { 
+    font-size: 2em;
+        color: darkred;
+        margin-left: 20px;
        } 
-h2 {  font-size: 2em;
+h2 {  
+      font-size: 2em;
          color:darkblue;
+         margin-left: 20px;
+         
     }
 p{    
     color:black;
           font-size: 2em;
+          margin-left: 20px;
     }
 
 /*.btn{
@@ -35,8 +41,24 @@ p{
       transition: .5s;
 }  */ 
 video{
+    width: 250px;
+    height: 200px;
     position: relative;
     margin-left: 20px;
+}
+.audio {
+    width: 250px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 0%;
+}
+.cor {width: 20px;
+    height: 20px;
+     color: darkred;
+     margin-left: 90px;
+     
+     
+
 }
 .container {
     width: 350px;
@@ -62,9 +84,30 @@ video{
 }
 .container{
     display: flex;
-    width: 100px;
+    position: relative;
+    width: 980px;
+    height: 114px;
+    background-color: white;
+    margin-left: 20px;
+
+}
+.image {
+    flex-basis: 700px;
+    width: 150px;
     height: 100px;
     position: relative;
+    border-color: red;
+    border: 1px;
+    border: 5px solid;
+    position: relative;
+    transition: .5;
+    cursor: pointer;
+    margin: 2px;
+    margin-left: 2px;
+
+}
+.image:hover {
+     border-color: red;
 }
 .btn {
     width: 70px;
@@ -101,24 +144,12 @@ video{
     color: white;
     background:green;
 }
-#link{
+.link{
       color: darkred;
       margin: 20px;
+      border-top: 5px;
       
 
-}
-#image {
-    width: 150px;
-    height: 100px;
-    position: relative;
-    border-color: red;
-    border: 1px;
-    margin-left: 20px;
-    border: 5px solid;
-    position: relative;
-    transition: .5;
-    cursor: pointer;
-}
-#image:hover {
-     border-color: red;
-}
+      }
+
+
