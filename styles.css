@@ -1,0 +1,124 @@
+body{ 
+    background-color:dimgrey;
+}
+
+h1 { font-size: 2em;
+        color: red;
+       } 
+h2 {  font-size: 2em;
+         color:darkblue;
+    }
+p{    
+    color:black;
+          font-size: 2em;
+    }
+
+/*.btn{
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 250px;
+    height: 150px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #333;
+    cursor: pointer;
+    text-align: center;
+    transition: .5s;    
+    
+}  
+.btn:hover {
+      color:green;
+      background-color: darkturquoise;
+      transition: .5s;
+}  */ 
+video{
+    position: relative;
+    margin-left: 20px;
+}
+.container {
+    width: 350px;
+    height: 300px;
+}
+.lista{
+    width: 220px;
+    height: 230px;
+    background-color:cadetblue;
+   color:blue;
+   border: 5px solid;
+   position: relative;
+   padding-top: 20px;
+   margin-left: 20px;
+   padding-right: 10px;
+   
+   }
+.lista:hover{
+        color: red;
+        transition: .5; 
+        position: relative;
+
+}
+.container{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.btn {
+    width: 70px;
+    height: 35px;
+    position: relative;
+    transition: .5;
+    background-color: red;
+    color: white;
+    font-size: .5;
+    border: 1;
+    border-color: blue;
+    
+}
+.btn:hover{
+        background-color: forestgreen;
+
+}
+.botao {
+    
+    height: 50px;
+    width: 90px;
+    position: relative;
+    transition: .5;
+    background-color:darkslategray;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.botao:hover {
+    color: white;
+    background:green;
+}
+#link{
+      color: darkred;
+      margin: 20px;
+      
+
+}
+#image {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    border-color: red;
+    border: 1px;
+    margin-left: 20px;
+    border: 5px solid;
+    position: relative;
+    transition: .5;
+    cursor: pointer;
+}
+#image:hover {
+     border-color: red;
+}
